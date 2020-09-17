@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+body {
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+.hero .title {
+  color: #ffd330;
+}
+.sub-title {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #ff85a2;
+}
+.primary .title {
+  color: white;
+  font-size: 2rem;
+}
+
+section .title {
+  color: #91c13e;
+  text-align:center;
+  position: relative;
+}
+section .title::after {
+  content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    width: 65px;
+    height: 5px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+ul.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.skills li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #ee3e34;
+  padding: 20px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-left: 10px;
+}
